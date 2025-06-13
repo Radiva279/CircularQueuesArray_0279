@@ -89,7 +89,7 @@ public:
         {
             while (FRONT_position <= REAR_position)
             {
-                cout << queue_array{FRONT_position} << "   ";
+                cout << queue_array[FRONT_position] << "   ";
                 FRONT_position++;
             }
             cout << endl;
@@ -159,7 +159,7 @@ public:
                 }
                 }
             }
-            catch(exception& e) {
+            catch (exception& e) {
                 cout << "Check for the values entered." << endl;
             }
         }
